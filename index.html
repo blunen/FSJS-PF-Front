@@ -1,37 +1,151 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="./style.css">
-    <title>Proyecto</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Tiliches©</title>
 </head>
 
 <body>
-    <nav>
-        <div>
-            <button id="menu" class="btn">Menu</button>
-        </div>
-        <div>
-            <input id="search" type="search" placeholder="Buscar">
-        </div>
-        <div>
-            <button id="login" class="btn">Iniciar sesion</button>
-            <p>Registrarse</p>
+    <nav class="navbar sticky-top navbar-dark bg-dark justify-content-between">
+        <a class="navbar-brand" href="#">Tiliches<img src="img/laptop.png" width="40" height="40"
+                class="d-inline-block align-top" alt="">
+        </a>
+        <form class="form-inline">
+            <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn  btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Menu
+            </button>
+            <div class="dropdown-menu border-primary dropdown-menu-right" aria-labelledby="dropdownMenu2">
+                <button class="dropdown-item" type="button">Iniciar sesión</button>
+                <button class="dropdown-item" type="button">Regístrarse</button>
+            </div>
         </div>
     </nav>
-    <div id="market"> 
-        <img src="./img/casaperro.jpg">
-        <img src="./img/bici.jpg">
-        <img src="./img/laptop.png">
-        <img src="./img/pantalla.jpg">
-        <img src="./img/sillon.jpg">
-        <img src="">
-        <img src="">
-        <img src="">
-        <img src="">
+    <h1>Agregados recientemente<span class="badge badge-secondary">Nuevo</span></h1>
+    <div class="container">
+        <div class="card-deck row mx-md-n5">
+            <div class="card border-info text-white bg-dark col-sm-6 col-md-4 col-lg-3 mt-4">
+                <img src="img/laptop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título del artículo</h5>
+                    <p class="card-text">Descripción detallada del producto.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="#" class="btn btn-outline-secondary">Guardar para después</a>
+                    <p class="card-text"><small class="text-muted">Agregado hace 5 minutos.</small></p>
+                </div>
+            </div>
+            <div class="card border-info text-white bg-dark col-sm-6 col-md-4 col-lg-3 mt-4">
+                <img src="img/laptop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título del artículo</h5>
+                    <p class="card-text">Descripción detallada del producto.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="#" class="btn btn-outline-secondary">Guardar para después</a>
+                    <p class="card-text"><small class="text-muted">Agregado hace 5 minutos.</small></p>
+                </div>
+            </div>
+            <div class="card border-info text-white bg-dark col-sm-6 col-md-4 col-lg-3 mt-4">
+                <img src="img/laptop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título del artículo</h5>
+                    <p class="card-text">Descripción detallada del producto.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="#" class="btn btn-outline-secondary">Guardar para después</a>
+                    <p class="card-text"><small class="text-muted">Agregado hace 5 minutos.</small></p>
+                </div>
+            </div>
+            <div class="card border-info text-white bg-dark col-sm-6 col-md-4 col-lg-3 mt-4">
+                <img src="img/laptop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título del artículo</h5>
+                    <p class="card-text">Descripción detallada del producto.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="#" class="btn btn-outline-secondary">Guardar para después</a>
+                    <p class="card-text"><small class="text-muted">Agregado hace 5 minutos.</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck row mx-md-n5">
+            <div class="card border-info text-white bg-dark col-sm-6 col-md-4 col-lg-3 mt-4">
+                <img src="img/laptop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título del artículo</h5>
+                    <p class="card-text">Descripción detallada del producto.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="#" class="btn btn-outline-secondary">Guardar para después</a>
+                    <p class="card-text"><small class="text-muted">Agregado hace 5 minutos.</small></p>
+                </div>
+            </div>
+            <div class="card border-info text-white bg-dark col-sm-6 col-md-4 col-lg-3 mt-4">
+                <img src="img/laptop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título del artículo</h5>
+                    <p class="card-text">Descripción detallada del producto.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="#" class="btn btn-outline-secondary">Guardar para después</a>
+                    <p class="card-text"><small class="text-muted">Agregado hace 5 minutos.</small></p>
+                </div>
+            </div>
+            <div class="card border-info text-white bg-dark col-sm-6 col-md-4 col-lg-3 mt-4">
+                <img src="img/laptop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título del artículo</h5>
+                    <p class="card-text">Descripción detallada del producto.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="#" class="btn btn-outline-secondary">Guardar para después</a>
+                    <p class="card-text"><small class="text-muted">Agregado hace 5 minutos.</small></p>
+                </div>
+            </div>
+            <div class="card border-info text-white bg-dark col-sm-6 col-md-4 col-lg-3 mt-4">
+                <img src="img/laptop.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Título del artículo</h5>
+                    <p class="card-text">Descripción detallada del producto.</p>
+                    <a href="#" class="btn btn-primary">Comprar</a>
+                    <a href="#" class="btn btn-outline-secondary">Guardar para después</a>
+                    <p class="card-text"><small class="text-muted">Agregado hace 5 minutos.</small></p>
+                </div>
+            </div>
+        </div>
     </div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previo</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">Siguiente</a>
+            </li>
+        </ul>
+    </nav>
+    <footer class="footer">
+        <div class="container">
+            <span class="">Hola desde Guadalajara.</span>
+            <span class="footer-copyright text-center py-3">© 2020 Derechos reservados.</span>
+        </div>
+    </footer>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
